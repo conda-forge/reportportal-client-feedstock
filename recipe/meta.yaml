@@ -19,8 +19,11 @@ requirements:
   host:
     - pip
     - python >=3.6
+    - setuptools >=40.0
+    - setuptools-scm
   run:
     - aenum
+    - delayed_assert
     - python >=3.6
     - requests >=2.23.0
     - six >=1.15.0
