@@ -36,7 +36,8 @@ test:
     - reportportal_client
   commands:
     - pip check
-    - pytest -vvv --capture=tee-sys tests
+    # Test suite doesn't work because required files removed from sdist
+    # - pytest -vvv --capture=tee-sys tests
   requires:
     - pip
     - pytest
