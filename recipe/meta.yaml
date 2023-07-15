@@ -26,8 +26,8 @@ requirements:
     - aenum
     - delayed-assert
     - python >=3.6
-    - requests >=2.23.0
-    - six >=1.15.0
+    - requests >=2.27.1
+    - six >=1.16.0
 
 test:
   source_files:
