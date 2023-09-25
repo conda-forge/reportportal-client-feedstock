@@ -1,5 +1,5 @@
 {% set name = "reportportal-client" %}
-{% set version = "5.4.0" %}
+{% set version = "5.4.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/reportportal-client-{{ version }}.tar.gz
-  sha256: 202f1cab005022159fbcd26b0301b0e3c9a917fdc5fe7a1ac80a700e6a39611f
+  sha256: a2dc83de11d111334341684b4f6913ed80983634328e4b78bc8cccd0e46f61f0
 
 build:
   number: 0
@@ -19,13 +19,12 @@ requirements:
   host:
     - importlib_metadata
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools >=40.0
     - setuptools-scm
   run:
     - aenum
-    - delayed-assert
-    - python >=3.6
+    - python >=3.7
     - requests >=2.27.1
     - six >=1.16.0
 
