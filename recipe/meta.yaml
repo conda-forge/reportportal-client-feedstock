@@ -19,13 +19,12 @@ requirements:
   host:
     - importlib_metadata
     - pip
-    - python >=3.6
+    - python >=3.7
     - setuptools >=40.0
     - setuptools-scm
   run:
     - aenum
-    - delayed-assert
-    - python >=3.6
+    - python >=3.7
     - requests >=2.27.1
     - six >=1.16.0
 
