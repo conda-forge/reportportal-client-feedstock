@@ -24,9 +24,10 @@ requirements:
     - setuptools-scm
   run:
     - aenum
+    - aiohttp >=3.8.3
+    - certifi >=2023.7.22
     - python >=3.7
-    - requests >=2.27.1
-    - six >=1.16.0
+    - requests >=2.28.0
 
 test:
   source_files:
