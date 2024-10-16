@@ -1,5 +1,5 @@
 {% set name = "reportportal-client" %}
-{% set version = "5.5.8" %}
+{% set version = "5.5.9" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: 5d1f60ab91a2bace0c2fee34709f73538cc16ab9bbef2139ef36185bf66069c5
+  sha256: 28e39f30a4af02887400311e98a1ff5096288913308e838de4ef8c24ae23cbb2
 
 build:
   number: 0
