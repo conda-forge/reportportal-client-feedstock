@@ -22,6 +22,7 @@ requirements:
     - python >=3.7
     - setuptools >=40.0
     - setuptools-scm
+    - wheel
   run:
     - aenum
     - aiohttp >=3.8.3
