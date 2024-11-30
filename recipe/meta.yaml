@@ -19,7 +19,7 @@ requirements:
   host:
     - importlib-metadata
     - pip
-    - python >=3.7
+    - python {{ python_min }}
     - setuptools >=40.0
     - setuptools-scm
     - wheel
@@ -27,7 +27,7 @@ requirements:
     - aenum
     - aiohttp >=3.8.6
     - certifi >=2024.8.30
-    - python >=3.7
+    - python >={{ python_min }}
     - requests >=2.31.0
 
 test:
@@ -37,6 +37,7 @@ test:
     - pip check
   requires:
     - pip
+    - python {{ python_min }}
 
 about:
   home: https://github.com/reportportal/client-Python
