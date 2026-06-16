@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: reportportal-client
-  version: "5.7.6"
+  version: "5.7.7"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 24cb20dd1bfdb93f7c00b2086cc6027afd50177d89bf19a16b1e2673643779a9
+  sha256: a0380d98c259a1bc0dc00d02901305e207c450188909ca16254d378fd63ccdae
 
 build:
   number: 0
@@ -27,10 +27,10 @@ requirements:
     - wheel
   run:
     - python >=${{ python_min }}
-    - typing-extensions >=4.13.2,<=4.15.0
+    - typing_extensions >=4.13.2,<=4.15.0
     - requests >=2.32.5,<=2.34.2
-    - aiohttp >=3.13.4,<=3.13.5
-    - certifi >=2026.2.25,<=2026.4.22
+    - aiohttp >=3.13.4,<=3.14.1
+    - certifi >=2026.2.25,<=2026.5.20
 
 tests:
   - python:
