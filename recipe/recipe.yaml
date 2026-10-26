@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: reportportal-client
-  version: "5.7.11"
+  version: "5.7.12"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name | replace('-', '_') }}-${{ version }}.tar.gz
-  sha256: 26b62e7c2a9d377745d5a3bcb5bc9a44b914bf23e06c405582436129533f076f
+  sha256: a8b5688f94d53955522393e969ecad2ae37a9603fa301d984a696bae7cb16134
 
 build:
   number: 0
